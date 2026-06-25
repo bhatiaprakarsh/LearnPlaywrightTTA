@@ -1,33 +1,85 @@
 // ============================================
-// JAVASCRIPT IDENTIFIER RULES
+// JAVASCRIPT IDENTIFIER RULES WITH EXAMPLES
 // ============================================
 
-// Rule 1: Must start with a letter, underscore (_), or dollar sign ($)
-var firstName = "John";       // VALID - starts with letter
-var _age = 25;                // VALID - starts with underscore
-var $price = 100;             // VALID - starts with dollar sign
+// RULE 1: Identifier must start with a letter, underscore (_), or dollar sign ($)
+// ────────────────────────────────────────────────────────────────────────────
+console.log("RULE 1: Must start with letter, _, or $");
 
-// Rule 2: After the first character, can contain letters, digits, underscores, or dollar signs
-var name1 = "John";           // VALID - contains digit
-var user_name = "Alice";      // VALID - contains underscore
-var item$price = 50;          // VALID - contains dollar sign
-var abc123XYZ = "test";       // VALID - mix of letters and digits
+// VALID examples:
+var p = 22;                   // Starts with letter 'p'
+var name = "John";            // Starts with letter 'n'
+var firstName = "Alice";      // Starts with letter 'f'
+var _a = 20;                  // Starts with underscore '_'
+var _privateVar = 100;        // Starts with underscore '_'
+var $ = 10;                   // Starts with dollar sign '$'
+var $price = 500;             // Starts with dollar sign '$'
 
-// Rule 3: CANNOT start with a number
+// INVALID examples (commented out):
+// var 123 = 123;              // INVALID - starts with number
 // var 1stname = "John";       // INVALID - starts with number
-// var 123name = "John";       // INVALID - starts with number
 
-// Rule 4: CANNOT contain spaces
-// var first name = "John";    // INVALID - contains space
-// var user name = "Alice";    // INVALID - contains space
 
-// Rule 5: CANNOT contain special characters (except $ and _)
-// var name@123 = "John";      // INVALID - contains @
-// var user#id = 10;           // INVALID - contains #
-// var item-name = "test";     // INVALID - contains hyphen
-// var total! = 50;            // INVALID - contains !
+// RULE 2: After first character, can contain letters, digits, underscores, or dollar signs
+// ──────────────────────────────────────────────────────────────────────────────────────
+console.log("RULE 2: Can contain letters, digits, _, $ after first character");
 
-// Rule 6: CANNOT be a reserved word (keywords)
+// VALID examples:
+var abc123 = 123;             // Contains letters and digits
+var user_name = "Bob";        // Contains underscore
+var user$id = 50;             // Contains dollar sign
+var firstName2 = "John";      // Contains letters and digits
+var _user_123 = "test";       // Contains underscores and digits
+var $price_100 = 999;         // Contains dollar sign, underscore, and digits
+
+
+// RULE 3: CANNOT contain special characters like @, #, !, %, etc.
+// ──────────────────────────────────────────────────────────────
+console.log("RULE 3: Cannot contain special characters (@, #, !, %, etc)");
+
+// VALID examples:
+var nameValid = "John";       // Only letters
+var user_id = 10;             // Only letters, underscore, digits
+var $amount = 100;            // Dollar sign is allowed
+
+// INVALID examples (commented out):
+// var name@name = "John";     // INVALID - contains @
+// var name#name = "John";     // INVALID - contains #
+// var user-name = "Alice";    // INVALID - contains hyphen -
+// var user name = "Bob";      // INVALID - contains space
+
+
+// RULE 4: CANNOT contain spaces
+// ─────────────────────────────
+console.log("RULE 4: Cannot contain spaces");
+
+// VALID examples (use camelCase or snake_case instead):
+var prakarsh_bhatia = 25;     // Using snake_case (underscore between words)
+var prakarshBhatia = 25;      // Using camelCase (capital letter for new word)
+
+// INVALID examples (commented out):
+// var prakarsh bhatia = 25;   // INVALID - contains space
+
+
+// RULE 5: Case Sensitive - Different cases = Different variables
+// ───────────────────────────────────────────────────────────────
+console.log("RULE 5: Identifiers are CASE SENSITIVE");
+
+// These are THREE different variables:
+var name = "John";            // lowercase 'name'
+var Name = "Alice";           // uppercase 'Name' - DIFFERENT variable
+var NAME = "Bob";             // all uppercase 'NAME' - DIFFERENT variable
+
+console.log(name);             // Output: John
+console.log(Name);             // Output: Alice
+console.log(NAME);             // Output: Bob
+
+
+// RULE 6: Cannot be JavaScript reserved words
+// ────────────────────────────────────────────
+console.log("RULE 6: Cannot use reserved keywords");
+
+// INVALID examples (commented out):
 // var var = 10;               // INVALID - 'var' is reserved
 // var let = 20;               // INVALID - 'let' is reserved
 // var const = 30;             // INVALID - 'const' is reserved
@@ -35,49 +87,39 @@ var abc123XYZ = "test";       // VALID - mix of letters and digits
 // var return = 5;             // INVALID - 'return' is reserved
 // var if = true;              // INVALID - 'if' is reserved
 
-// Rule 7: Identifiers are CASE SENSITIVE
-var Name = "John";            // Different from 'name'
-var name = "Alice";           // Different from 'Name'
-var NAME = "Bob";             // Different from 'Name' and 'name'
+// VALID examples (not using reserved words):
+var myVar = 10;               // Use 'myVar' instead of 'var'
+var myLet = 20;               // Use 'myLet' instead of 'let'
+var myConst = 30;             // Use 'myConst' instead of 'const'
 
-// Rule 8: Can use camelCase (recommended for variables)
-var firstName = "John";       // VALID - camelCase convention
-var lastName = "Doe";         // VALID - camelCase convention
-var userAge = 25;             // VALID - camelCase convention
-
-// Rule 9: Can use snake_case (used in some conventions)
-var first_name = "John";      // VALID - snake_case
-var last_name = "Doe";        // VALID - snake_case
-var user_age = 25;            // VALID - snake_case
-
-// Rule 10: Can use PascalCase (used for classes/constructors)
-var FirstName = "John";       // VALID - PascalCase
-var LastName = "Doe";         // VALID - PascalCase
-var UserProfile = {};         // VALID - PascalCase
-
-// Rule 11: Can use UPPER_CASE with underscores (used for constants)
-var MAX_SIZE = 100;           // VALID - UPPER_CASE
-var MIN_VALUE = 0;            // VALID - UPPER_CASE
-var PI_VALUE = 3.14159;       // VALID - UPPER_CASE
-
-// Rule 12: Can contain multiple $ or _ symbols
-var $_amount = 1000;          // VALID - contains $ and _
-var __privateVar = "secret";  // VALID - starts with __
-var $$ = 500;                 // VALID - only $ symbols
 
 // ============================================
-// REAL-WORLD EXAMPLES (ALL VALID)
+// NAMING CONVENTIONS (BEST PRACTICES)
 // ============================================
 
-var userName = "prakarsh";
-var userEmail = "prakarsh@example.com";
-var totalPrice = 1500.50;
+console.log("NAMING CONVENTIONS:");
+
+// camelCase (recommended for variables)
+var firstName = "John";
+var lastName = "Doe";
+var userAge = 25;
 var isActive = true;
-var _internalId = 12345;
-var $balance = 5000;
-var user_id = 101;
-var MAX_ATTEMPTS = 5;
-var ProductName = "Laptop";
 
-console.log("All valid identifiers created successfully!");
+// snake_case (used in some conventions)
+var first_name = "John";
+var last_name = "Doe";
+var user_age = 25;
+
+// PascalCase (used for classes/constructors)
+var UserProfile = {};
+var StudentRecord = {};
+
+// UPPER_CASE (used for constants)
+var MAX_SIZE = 100;
+var MIN_VALUE = 0;
+
+console.log("All identifier rules demonstrated successfully!");
+
+
+
 
