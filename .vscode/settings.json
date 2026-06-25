@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^git push --set-upstream origin master$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
