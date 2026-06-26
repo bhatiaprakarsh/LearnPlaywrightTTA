@@ -354,6 +354,7 @@ This project is open source and available under the MIT License.
 **Prakarsh Bhati**
 - GitHub: [@bhatiaprakarsh](https://github.com/bhatiaprakarsh)
 - Repository: [LearnPlaywrightTTA](https://github.com/bhatiaprakarsh/LearnPlaywrightTTA)
+- LinkedIn: [PrakarshBhatia](https://www.linkedin.com/in/prakarsh-bhatia-4272491b7/)
 
 ---
 
