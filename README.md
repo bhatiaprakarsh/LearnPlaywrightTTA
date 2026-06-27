@@ -34,6 +34,14 @@ LearnPlaywrightTTA/
 │   ├── 07_Identifier_Part2.js
 │   └── 08_Comments.js
 │
+├── chapter_05_Literals/                    # Literals, strings, and templates
+│   ├── 22_Literals.js
+│   ├── 23_null_undefined.js
+│   ├── 26_Literal_numbers.js
+│   ├── 27_String_Literals.js
+│   ├── 28_Template_Literals.js
+│   └── 29_Backtick_Single_Double.js
+│
 ├── chapter_04_JavaScript_Concepts/         # Advanced Concepts
 │   ├── 09_var_let_const.js                 # ⭐ Comprehensive var/let/const guide
 │   ├── 10_functions.js
@@ -74,6 +82,15 @@ Understanding naming conventions and code documentation:
 - `06_Identifier_Rules.js` - Rules for naming variables and functions
 - `07_Identifier_Part2.js` - Advanced identifier concepts
 - `08_Comments.js` - Single-line and multi-line comments
+
+### **Chapter 5: Literals and Strings** (Files: 22, 23, 26-29)
+Learn JavaScript literals, value types, and string syntax:
+- `22_Literals.js` - JavaScript literal examples for numbers, strings, objects, arrays, booleans, null, and regex
+- `23_null_undefined.js` - Difference between `null` and `undefined`
+- `26_Literal_numbers.js` - Numeric literals: decimal, binary, octal, hexadecimal, BigInt, and separators
+- `27_String_Literals.js` - String literal examples with single and double quotes
+- `28_Template_Literals.js` - Template literals and expression interpolation
+- `29_Backtick_Single_Double.js` - Backticks, single quotes, and double quotes in strings
 
 ### **Chapter 4: Advanced JavaScript Concepts** (Files: 09-17)
 Dive deep into variables, scope, and hoisting:
@@ -188,6 +205,16 @@ node chapter_04_JavaScript_Concepts/17_Hoisting_fn.js
 | `06_Identifier_Rules.js` | Rules for creating valid identifiers (variable/function names) |
 | `07_Identifier_Part2.js` | Advanced identifier patterns and conventions |
 | `08_Comments.js` | Single-line (//) and multi-line (/* */) comment examples |
+
+### Chapter 5: Literals and Strings
+| File | Description |
+|------|-------------|
+| `22_Literals.js` | JavaScript literal examples for values like numbers, strings, objects, arrays, booleans, null, and regex |
+| `23_null_undefined.js` | Difference between `null` and `undefined` with examples |
+| `26_Literal_numbers.js` | Numeric literals: decimal, binary, octal, hexadecimal, BigInt, and separators |
+| `27_String_Literals.js` | String literal examples using single and double quotes |
+| `28_Template_Literals.js` | Template literals with expression interpolation and multiline strings |
+| `29_Backtick_Single_Double.js` | Backticks, single quotes, and double quotes in strings |
 
 ### Chapter 4: Advanced Concepts
 | File | Description |
