@@ -5,6 +5,7 @@ A comprehensive JavaScript learning repository covering fundamentals, concepts, 
 ## 📚 Project Overview
 
 This repository contains structured JavaScript lessons organized by chapters, covering:
+
 - JavaScript basics and commands
 - Variables (var, let, const)
 - Identifiers and literals
@@ -14,6 +15,11 @@ This repository contains structured JavaScript lessons organized by chapters, co
 - And more!
 
 All lessons include practical, executable examples that demonstrate key concepts.
+
+## 📝 Progress Update
+
+- 27th June: Learned JavaScript operators and added practical examples for assignment, modulus, exponentiation, and comparison operators.
+- Continued building hands-on practice files to strengthen understanding of core JavaScript concepts.
 
 ---
 
@@ -42,6 +48,13 @@ LearnPlaywrightTTA/
 │   ├── 28_Template_Literals.js
 │   └── 29_Backtick_Single_Double.js
 │
+├── chapter_06_Operators/                  # Operators and expressions
+│   ├── 30_Operator.js
+│   ├── 31_Assignment_op.js
+│   ├── 32_modulus.js
+│   ├── 33_expo..js
+│   └── 35_Comparision_OP.js
+│
 ├── chapter_04_JavaScript_Concepts/         # Advanced Concepts
 │   ├── 09_var_let_const.js                 # ⭐ Comprehensive var/let/const guide
 │   ├── 10_functions.js
@@ -63,28 +76,37 @@ LearnPlaywrightTTA/
 ## 🎯 Learning Path
 
 ### **Chapter 1: Basics** (Files: 01-03)
+
 Learn the fundamentals of JavaScript including:
+
 - Basic syntax and structure
 - JavaScript commands and execution
 - Console output and basic operations
 
 **Files:**
+
 - `01_Basic.js` - Introduction to JavaScript
 - `02_JS.js` - JavaScript basics
 - `03_JS_Commands.js` - Common JavaScript commands
 
 ### **Chapter 2: JavaScript Concepts** (Files: 05)
+
 Core concepts and foundational knowledge:
+
 - `05_JS_Basics.js` - JavaScript fundamentals review
 
 ### **Chapter 3: Identifiers & Literals** (Files: 06-08)
+
 Understanding naming conventions and code documentation:
+
 - `06_Identifier_Rules.js` - Rules for naming variables and functions
 - `07_Identifier_Part2.js` - Advanced identifier concepts
 - `08_Comments.js` - Single-line and multi-line comments
 
 ### **Chapter 5: Literals and Strings** (Files: 22, 23, 26-29)
+
 Learn JavaScript literals, value types, and string syntax:
+
 - `22_Literals.js` - JavaScript literal examples for numbers, strings, objects, arrays, booleans, null, and regex
 - `23_null_undefined.js` - Difference between `null` and `undefined`
 - `26_Literal_numbers.js` - Numeric literals: decimal, binary, octal, hexadecimal, BigInt, and separators
@@ -93,9 +115,11 @@ Learn JavaScript literals, value types, and string syntax:
 - `29_Backtick_Single_Double.js` - Backticks, single quotes, and double quotes in strings
 
 ### **Chapter 4: Advanced JavaScript Concepts** (Files: 09-17)
+
 Dive deep into variables, scope, and hoisting:
 
 #### **Variables (var, let, const)**
+
 - `09_var_let_const.js` ⭐ **COMPREHENSIVE GUIDE**
   - Detailed explanations of var, let, and const
   - Scope differences (global, function, block)
@@ -110,14 +134,17 @@ Dive deep into variables, scope, and hoisting:
 - `13_Const.js` - Deep dive into const keyword
 
 #### **Scope Management**
+
 - `14_var_functionScope.js` - Function scope with var
 - `15_let_scope.js` - Block scope with let
 
 #### **Hoisting**
+
 - `16_Hoisting.js` - Variable hoisting concepts
 - `17_Hoisting_fn.js` - Function hoisting
 
 #### **Functions**
+
 - `10_functions.js` - Function declaration, expression, and arrow functions
 
 ---
@@ -125,20 +152,23 @@ Dive deep into variables, scope, and hoisting:
 ## ✨ Key Topics Covered
 
 ### Variables
-| Feature | var | let | const |
-|---------|-----|-----|-------|
-| Scope | Function | Block | Block |
-| Redeclare | ✅ Yes | ❌ No | ❌ No |
-| Reassign | ✅ Yes | ✅ Yes | ❌ No |
-| Hoisting | ✅ (undefined) | ❌ (TDZ) | ❌ (TDZ) |
+
+| Feature   | var            | let      | const    |
+| --------- | -------------- | -------- | -------- |
+| Scope     | Function       | Block    | Block    |
+| Redeclare | ✅ Yes         | ❌ No    | ❌ No    |
+| Reassign  | ✅ Yes         | ✅ Yes   | ❌ No    |
+| Hoisting  | ✅ (undefined) | ❌ (TDZ) | ❌ (TDZ) |
 
 ### Scope Types
+
 - **Global Scope** - Variables accessible everywhere
 - **Function Scope** - Variables accessible within a function (var)
 - **Block Scope** - Variables accessible within a block: { } (let, const)
 - **Closures** - Functions accessing outer scope variables
 
 ### Hoisting
+
 - Variable declarations are moved to the top of their scope
 - `var` is hoisted with `undefined` value
 - `let` and `const` are hoisted but not initialized (Temporal Dead Zone)
@@ -150,6 +180,7 @@ Dive deep into variables, scope, and hoisting:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - **Node.js** (v12.0 or higher) - [Download here](https://nodejs.org/)
 - **Git** (for cloning and version control) - [Download here](https://git-scm.com/)
 - **Text Editor/IDE** - VS Code recommended - [Download here](https://code.visualstudio.com/)
@@ -157,6 +188,7 @@ Dive deep into variables, scope, and hoisting:
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/bhatiaprakarsh/LearnPlaywrightTTA.git
    cd LearnPlaywrightTTA
@@ -188,65 +220,75 @@ node chapter_04_JavaScript_Concepts/17_Hoisting_fn.js
 ## 📖 File Descriptions
 
 ### Chapter 1: Basics
-| File | Description |
-|------|-------------|
-| `01_Basic.js` | Introduction to JavaScript syntax and basic operations |
-| `02_JS.js` | JavaScript fundamentals and basic concepts |
-| `03_JS_Commands.js` | Common JavaScript commands and methods |
+
+| File                | Description                                            |
+| ------------------- | ------------------------------------------------------ |
+| `01_Basic.js`       | Introduction to JavaScript syntax and basic operations |
+| `02_JS.js`          | JavaScript fundamentals and basic concepts             |
+| `03_JS_Commands.js` | Common JavaScript commands and methods                 |
 
 ### Chapter 2: JavaScript Concepts
-| File | Description |
-|------|-------------|
+
+| File              | Description                         |
+| ----------------- | ----------------------------------- |
 | `05_JS_Basics.js` | Core JavaScript basics and concepts |
 
 ### Chapter 3: Identifiers & Literals
-| File | Description |
-|------|-------------|
+
+| File                     | Description                                                    |
+| ------------------------ | -------------------------------------------------------------- |
 | `06_Identifier_Rules.js` | Rules for creating valid identifiers (variable/function names) |
-| `07_Identifier_Part2.js` | Advanced identifier patterns and conventions |
-| `08_Comments.js` | Single-line (//) and multi-line (/* */) comment examples |
+| `07_Identifier_Part2.js` | Advanced identifier patterns and conventions                   |
+| `08_Comments.js`         | Single-line (//) and multi-line (/\* \*/) comment examples     |
 
 ### Chapter 5: Literals and Strings
-| File | Description |
-|------|-------------|
-| `22_Literals.js` | JavaScript literal examples for values like numbers, strings, objects, arrays, booleans, null, and regex |
-| `23_null_undefined.js` | Difference between `null` and `undefined` with examples |
-| `26_Literal_numbers.js` | Numeric literals: decimal, binary, octal, hexadecimal, BigInt, and separators |
-| `27_String_Literals.js` | String literal examples using single and double quotes |
-| `28_Template_Literals.js` | Template literals with expression interpolation and multiline strings |
-| `29_Backtick_Single_Double.js` | Backticks, single quotes, and double quotes in strings |
+
+| File                           | Description                                                                                              |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| `22_Literals.js`               | JavaScript literal examples for values like numbers, strings, objects, arrays, booleans, null, and regex |
+| `23_null_undefined.js`         | Difference between `null` and `undefined` with examples                                                  |
+| `26_Literal_numbers.js`        | Numeric literals: decimal, binary, octal, hexadecimal, BigInt, and separators                            |
+| `27_String_Literals.js`        | String literal examples using single and double quotes                                                   |
+| `28_Template_Literals.js`      | Template literals with expression interpolation and multiline strings                                    |
+| `29_Backtick_Single_Double.js` | Backticks, single quotes, and double quotes in strings                                                   |
 
 ### Chapter 4: Advanced Concepts
-| File | Description |
-|------|-------------|
-| `09_var_let_const.js` | ⭐ **Comprehensive guide**: var vs let vs const with scope, redeclare, reassign, hoisting, and practical examples |
-| `10_functions.js` | Function declarations, expressions, arrow functions, and scope |
-| `11_Var.js` | In-depth var keyword behavior and hoisting |
-| `12_Let.js` | In-depth let keyword and block scoping |
-| `13_Const.js` | In-depth const keyword and immutability |
-| `14_var_functionScope.js` | Function scope examples with var |
-| `15_let_scope.js` | Block scope examples with let |
-| `16_Hoisting.js` | Variable hoisting and Temporal Dead Zone |
-| `17_Hoisting_fn.js` | Function hoisting behavior |
+
+| File                      | Description                                                                                                       |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `09_var_let_const.js`     | ⭐ **Comprehensive guide**: var vs let vs const with scope, redeclare, reassign, hoisting, and practical examples |
+| `10_functions.js`         | Function declarations, expressions, arrow functions, and scope                                                    |
+| `11_Var.js`               | In-depth var keyword behavior and hoisting                                                                        |
+| `12_Let.js`               | In-depth let keyword and block scoping                                                                            |
+| `13_Const.js`             | In-depth const keyword and immutability                                                                           |
+| `14_var_functionScope.js` | Function scope examples with var                                                                                  |
+| `15_let_scope.js`         | Block scope examples with let                                                                                     |
+| `16_Hoisting.js`          | Variable hoisting and Temporal Dead Zone                                                                          |
+| `17_Hoisting_fn.js`       | Function hoisting behavior                                                                                        |
 
 ---
 
 ## 💡 Key Learning Points
 
 ### 1. **Use CONST by Default**
+
 ```javascript
 const API_URL = "https://api.example.com";
 ```
+
 Const prevents accidental reassignment and is safer.
 
 ### 2. **Use LET When Reassignment Needed**
+
 ```javascript
 let counter = 0;
 counter++; // Allowed - reassignment
 ```
+
 Let is block-scoped and safer than var.
 
 ### 3. **Avoid VAR**
+
 ```javascript
 // ❌ Avoid
 var name = "John"; // Function scoped, can cause bugs
@@ -254,29 +296,34 @@ var name = "John"; // Function scoped, can cause bugs
 // ✅ Prefer
 let name = "John"; // Block scoped, cleaner
 ```
+
 Var's function scope can lead to unexpected behavior.
 
 ### 4. **Understand Scope**
+
 ```javascript
 function example() {
-    if (true) {
-        let blockVar = "I am block scoped";
-    }
-    // console.log(blockVar); // ReferenceError
+  if (true) {
+    let blockVar = "I am block scoped";
+  }
+  // console.log(blockVar); // ReferenceError
 }
 ```
+
 Let and const are block-scoped; var is function-scoped.
 
 ### 5. **Closures**
+
 ```javascript
 function createCounter() {
-    let count = 0;
-    return () => ++count;
+  let count = 0;
+  return () => ++count;
 }
 const counter = createCounter();
 console.log(counter()); // 1
 console.log(counter()); // 2
 ```
+
 Functions can access variables from their outer scope.
 
 ---
@@ -299,14 +346,15 @@ Functions can access variables from their outer scope.
 5. **Refer to comprehensive guides** - Use `09_var_let_const.js` as a reference
 
 ### Recommended Study Order
+
 ```
-01_Basic.js 
+01_Basic.js
     ↓
-02_JS.js 
+02_JS.js
     ↓
-03_JS_Commands.js 
+03_JS_Commands.js
     ↓
-05_JS_Basics.js 
+05_JS_Basics.js
     ↓
 06_Identifier_Rules.js → 07_Identifier_Part2.js → 08_Comments.js
     ↓
@@ -379,9 +427,9 @@ This project is open source and available under the MIT License.
 ## 👤 Author
 
 **Prakarsh Bhati**
+
 - GitHub: [@bhatiaprakarsh](https://github.com/bhatiaprakarsh)
 - Repository: [LearnPlaywrightTTA](https://github.com/bhatiaprakarsh/LearnPlaywrightTTA)
-- LinkedIn: [PrakarshBhatia](https://www.linkedin.com/in/prakarsh-bhatia-4272491b7/)
 
 ---
 
@@ -399,6 +447,7 @@ This project is open source and available under the MIT License.
 ## 📞 Support
 
 If you have questions or issues:
+
 1. Check the relevant JavaScript file comments
 2. Review MDN documentation
 3. Open an issue on GitHub
@@ -409,6 +458,7 @@ If you have questions or issues:
 ## 🌟 Highlights
 
 ⭐ **Must-Read Files:**
+
 - `09_var_let_const.js` - Comprehensive guide with 200+ lines of examples
 - `16_Hoisting.js` - Understanding how JavaScript handles variable hoisting
 - `10_functions.js` - Function concepts and patterns
