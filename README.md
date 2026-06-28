@@ -40,6 +40,18 @@ LearnPlaywrightTTA/
 │   ├── 07_Identifier_Part2.js
 │   └── 08_Comments.js
 │
+│
+├── chapter_04_JavaScript_Concepts/         # Advanced Concepts
+│   ├── 09_var_let_const.js                 # ⭐ Comprehensive var/let/const guide
+│   ├── 10_functions.js
+│   ├── 11_Var.js
+│   ├── 12_Let.js
+│   ├── 13_Const.js
+│   ├── 14_var_functionScope.js
+│   ├── 15_let_scope.js
+│   ├── 16_Hoisting.js
+│   └── 17_Hoisting_fn.js
+│
 ├── chapter_05_Literals/                    # Literals, strings, and templates
 │   ├── 22_Literals.js
 │   ├── 23_null_undefined.js
@@ -60,18 +72,8 @@ LearnPlaywrightTTA/
 │   ├── 42_TypeOf_OP.js
 │   ├── 43_Increment_Decrement_OP.js
 │   └── 44_Null_OP.js
-│
-├── chapter_04_JavaScript_Concepts/         # Advanced Concepts
-│   ├── 09_var_let_const.js                 # ⭐ Comprehensive var/let/const guide
-│   ├── 10_functions.js
-│   ├── 11_Var.js
-│   ├── 12_Let.js
-│   ├── 13_Const.js
-│   ├── 14_var_functionScope.js
-│   ├── 15_let_scope.js
-│   ├── 16_Hoisting.js
-│   └── 17_Hoisting_fn.js
-│
+|
+|
 ├── JavaScript/                             # Additional resources
 │
 └── README.md                               # This file
