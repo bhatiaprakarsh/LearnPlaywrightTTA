@@ -53,7 +53,13 @@ LearnPlaywrightTTA/
 │   ├── 31_Assignment_op.js
 │   ├── 32_modulus.js
 │   ├── 33_expo..js
-│   └── 35_Comparision_OP.js
+│   ├── 35_Comparision_OP.js
+│   ├── 39_Logical_OP.js
+│   ├── 40_String_OP.js
+│   ├── 41_Ternary_OP.js
+│   ├── 42_TypeOf_OP.js
+│   ├── 43_Increment_Decrement_OP.js
+│   └── 44_Null_OP.js
 │
 ├── chapter_04_JavaScript_Concepts/         # Advanced Concepts
 │   ├── 09_var_let_const.js                 # ⭐ Comprehensive var/let/const guide
@@ -103,7 +109,7 @@ Understanding naming conventions and code documentation:
 - `07_Identifier_Part2.js` - Advanced identifier concepts
 - `08_Comments.js` - Single-line and multi-line comments
 
-### **Chapter 5: Literals and Strings** (Files: 22, 23, 26-29)
+### Chapter 5: Literals and Strings (Files: 22, 23, 26-29)
 
 Learn JavaScript literals, value types, and string syntax:
 
@@ -114,7 +120,7 @@ Learn JavaScript literals, value types, and string syntax:
 - `28_Template_Literals.js` - Template literals and expression interpolation
 - `29_Backtick_Single_Double.js` - Backticks, single quotes, and double quotes in strings
 
-### **Chapter 4: Advanced JavaScript Concepts** (Files: 09-17)
+### Chapter 4: Advanced JavaScript Concepts (Files: 09-17)
 
 Dive deep into variables, scope, and hoisting:
 
@@ -251,6 +257,22 @@ node chapter_04_JavaScript_Concepts/17_Hoisting_fn.js
 | `27_String_Literals.js`        | String literal examples using single and double quotes                                                   |
 | `28_Template_Literals.js`      | Template literals with expression interpolation and multiline strings                                    |
 | `29_Backtick_Single_Double.js` | Backticks, single quotes, and double quotes in strings                                                   |
+
+### Chapter 6: Operators
+
+| File                           | Description                                                    |
+| ------------------------------ | -------------------------------------------------------------- | --- | ------------------------------------------ |
+| `30_Operator.js`               | Overview of common JavaScript operators with examples          |
+| `31_Assignment_op.js`          | Assignment operators and shorthand assignment examples         |
+| `32_modulus.js`                | Modulus operator and remainder examples                        |
+| `33_expo..js`                  | Exponentiation operator examples                               |
+| `35_Comparision_OP.js`         | Comparison operators such as `==`, `===`, `>`, `<`, `>=`, `<=` |
+| `39_Logical_OP.js`             | Logical operators `&&`, `                                      |     | `, and `!` with truth table style examples |
+| `40_String_OP.js`              | String concatenation and string-related operator examples      |
+| `41_Ternary_OP.js`             | Ternary operator examples for short conditional logic          |
+| `42_TypeOf_OP.js`              | `typeof` operator examples for checking data types             |
+| `43_Increment_Decrement_OP.js` | Increment and decrement operator examples                      |
+| `44_Null_OP.js`                | `null` examples and how it differs from other falsy values     |
 
 ### Chapter 4: Advanced Concepts
 
